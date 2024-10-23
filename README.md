@@ -31,12 +31,12 @@ class Strategy():
 
 ## The Game
 
-You have been invited to compete against other people for virtual money. Your goal is to come out with the largest sum of money at the end of all 1000 rounds.
+You have been invited to compete against other people for virtual money. Your goal is to come out with the largest sum of money at the end of all 100 rounds.
 
 ### Initial Setup:
 
-Each player starts with a fixed amount of money (e.g., $10,000).
-The game lasts for 1000 rounds.
+Each player starts with a fixed amount of money (e.g., $1,000).
+The game lasts for 100 rounds.
 
 ### Betting:
 
