@@ -111,7 +111,8 @@ def main() -> None:
         start_time = time.time()
 
         outcome: Outcome = run_trajectory(test_strategy, INTIAL_BALANCE, NUM_ROUDS)
-
+        print(outcome)
+    
         end_time = time.time()
         total_time = end_time - start_time
 

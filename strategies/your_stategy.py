@@ -9,4 +9,4 @@ class Strategy:
         self.author: str = 'your_netid'
         
     def play(self, balance: float, rounds_left: int, history: History) -> Gamble:
-        return
+        pass
