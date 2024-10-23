@@ -93,7 +93,7 @@ def run_trajectory(strategy: Strategy, balance: float, num_rounds: int) -> Outco
         return ( balance, history )
 
 def main() -> None:
-    INTIAL_BALANCE: float = 10_000.0
+    INTIAL_BALANCE: float = 1_000.0
     NUM_ROUDS: int = 100
     TIMEOUT_SECONDS: int = 5 * 60
 
