@@ -67,7 +67,7 @@ class Strategy():
         return Gamble(balance, 1)  # bet all, 1% win chance (max risk)
 ```
 
-The `YoloStrategy` class defines an extreme, high-risk betting strategy for the game where the player bets all of their balance in each round with the maximum allowed **win chance** of 1%. Here’s a breakdown of how this strategy works:
+The `YoloStrategy` class defines an extreme, high-risk betting strategy for the game where the player bets all of their balance in each round with the maximum allowed **win chance** of 1%.
 
 ### Key Components:
 - **Strategy**: This is the parent class, likely part of the game's framework. `YoloStrategy` inherits from it.
