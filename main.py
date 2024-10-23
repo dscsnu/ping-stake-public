@@ -73,7 +73,7 @@ def run_trajectory(strategy: Strategy, balance: float, num_rounds: int) -> Outco
 
             try:
                 response = requests.get(
-                    'https://stake-api-b79578c75931.herokuapp.com/',
+                    'https://stake-api-b79578c75931.herokuapp.com/gamble',
                     params = {
                         'amount_bet': gamble.amount_bet,
                         'win_percentage': gamble.win_percentage,
