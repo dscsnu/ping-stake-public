@@ -97,7 +97,6 @@ def main() -> None:
     NUM_ROUDS: int = 100
     TIMEOUT_SECONDS: int = 5 * 60
 
-
     try:
         # Find the strategy file in the strategies folder
         strategy_file = next(file for file in os.listdir("./strategies") if file.endswith(".py") and file != "__init__.py")
